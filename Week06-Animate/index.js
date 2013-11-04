@@ -89,6 +89,6 @@ function animate($drawTarget, image, ready) {
 $(document).ready(function() {
 	var target01 = $('#drawHere01');
 	var target02 = $('#drawHere02');
-	animate(target01, 'Shapes01.png', true);
-	animate(target02, 'Shapes02.png', false);	
+	animate(target01, 'images/Shapes01.png', true);
+	animate(target02, 'images/Shapes02.png', false);	
 });

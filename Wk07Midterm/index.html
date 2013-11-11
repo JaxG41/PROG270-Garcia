@@ -2,9 +2,9 @@
 <html ng-app="elvenApp">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Elven Sprite</title>
+		<title>Seahawk Fans</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="favicon.png">
+		<link rel="shortcut icon" href="images/seahawks.png">
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 		<!-- Optional theme -->
@@ -17,6 +17,7 @@
 		<script src="angular-resource.js"></script>
 		<script src="index.js"></script>
 		<script src="MongoData.js"></script>
+		
 	</head>
 	<body>
 		<div class="navbar navbar-inverse navbar-fixed-top">
@@ -26,13 +27,15 @@
 						<span class="icon-bar"> </span>
 						<span class="icon-bar"> </span>
 						<span class="icon-bar"> </span>
+						<span class="icon-bar"> </span>
 					</button>
-					<a class="navbar-brand" href="index.html">Elvenware</a>
+					<a class="navbar-brand" href="index.html">Go Hawks</a>
 				</div>
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
+						<li class="active"><a href="index.html">Home</a></li>
 						<li><a href="About.html">About</a></li>
+						<li><a href="History.html">History</a></li>
 						<li><a href="Contacts.html">Contact</a></li>
 					</ul>
 				</div><!--/.nav-collapse -->
@@ -42,26 +45,41 @@
 		<div class="container">
 			<div class="starter-template">
 
-				<h1>Animate Bootstrap</h1>
+				<h1>Seahawks Fan Page</h1>
 
 				<div id='drawHere01' class='draw-target'></div>
 				<div id='drawHere02' class='draw-target'></div>
-				<div id="monogoData" ng-controller="MyController">
-					<p>This project retrieves a small amount of JSON from
-					a node server.</p>
-					<p>Rows in DB: {{presidentsLength}}</p>
-					<ul>
-						<li ng-repeat="president in presidents">
-							<p>{{president.getPresidentName()}}<br/>
-								TermStart: {{president.getTermStart()}}<br/>
-								TermEnd: {{president.getTermEnd()}}</p>
-						</li>
-					</ul>
-					<div ng-bind-html-unsafe="hint"></div>
-				</div>
+				
 			</div>
-
+<br/>
+<br/>
+				    <p>Are you a Seattle SeaHawk Fan? Check out our site and you will see you are not
+				    alone. Join the True Blue Team. Get highlights from every game, view photos 
+				    submitted by our fans. Learn about the history of "The 12th Man" and much more. 
+				    Make us a part of your family.</p>
+				    <p>For the first time in franchise history, the Hawks are 9-1, and they have not 
+				    lost a game at home in two years. Thank you for supporting our boys. We look forward
+				    to keeping you informed about your Seattle Seahawks. </p>
+      
 		</div><!-- /.container -->
+		
+		<div class="container">
+		<!-- Example row of columns -->
+		<div class="row">
+			<div class="col-lg-4">
+				    <p><img src="images/hawks.png" alt="Seattle Seahawks Logo" title="Seattle Seahawks Logo" /></p>
+				    <p>Seattle Seahawks Logo</p>
+			   </div>
+			   
+                <div class="col-lg-4">
+    				    <p><img src="images/blue.png" alt="True Blue Fan" title="True Blue Fan" /></p>
+    				    <p>True Blue Fan</p>
+    		    </div>
+			<div class="col-lg-4">
+			        <p><img src="images/fans.png" alt="Mama Blue and a fan" title="Mama Blue" /></p>
+				    <p>Mama Blue</p>
+	    </div><!-- /.container -->
 
 	</body>
 </html>
+

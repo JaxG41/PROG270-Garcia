@@ -141,10 +141,18 @@ function walkDirs(folderName) {
 
 }
 
-walkDirs('Images')
-walkDirs('Source');
-walkDirs('Style');
+walkDirs('images')
+//walkDirs('Source');
+//walkDirs('Style');
 writeFile('index.html', '/index.html', false);
-writeFile('Pictures.html', '/Pictures.html', false);
+writeFile('Contact.html', '/Contact.html', false);
 writeFile('About.html', '/About.html', false);
+writeFile('History.html', '/History.html', false);
+writeFile('index.css', '/index.css', false);
+writeFile('angular.js', '/angular.js', false);
+writeFile('angular-mocks.js', '/angular-mocks.js', false);
+writeFile('angular-resource.js', '/angular-resource.js', false);
+writeFile('index.js', '/index.js', false);
+writeFile('MongoData.js', '/MongoData.js', false);
+writeFile('Server.js', '/Server.js', false);
 //listBuckets(s3);

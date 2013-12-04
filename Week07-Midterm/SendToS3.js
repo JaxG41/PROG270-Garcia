@@ -28,7 +28,7 @@ function listBuckets(s3) {
 function writeFile(localFileName, nameOnS3, binary) {
 	// Read in the file, convert it to base64, store to S3
 	
-	nameOnS3 = "Week09AndroidOrg" + nameOnS3;
+	nameOnS3 = "week07-midterm" + nameOnS3;
 	
 	fs.readFile(localFileName, function(err, data) {
 		if (err) {
